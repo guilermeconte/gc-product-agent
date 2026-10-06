@@ -1,0 +1,45 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# Build
+.next/
+dist/
+build/
+out/
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
+
+# Agent runtime
+.agent/runtime/
+.project/state/session.json
+
+# Secrets
+*.pem
+*.key
+*.crt
+secrets/
