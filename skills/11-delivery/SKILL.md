@@ -1,3 +1,8 @@
+---
+name: 11-delivery
+description: Prepare production-ready outputs, documentation, handoff, deployment checks and final project state.
+---
+
 # Delivery Skill
 
 ## Objetivo

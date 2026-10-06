@@ -1,3 +1,8 @@
+---
+name: 06-motion
+description: Define interaction and motion behavior, reverse-engineer references, and translate intent into implementation-ready motion specifications.
+---
+
 # Motion Skill
 
 ## Objetivo

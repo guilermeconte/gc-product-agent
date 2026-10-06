@@ -1,3 +1,8 @@
+---
+name: 04-design-system
+description: Define and audit foundations, tokens, typography, layout, components, patterns, states, responsive rules and accessibility.
+---
+
 # Design System Skill
 
 ## Objetivo

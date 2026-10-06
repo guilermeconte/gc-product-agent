@@ -95,3 +95,7 @@ changes: []
 /audit figma
 /run qa
 ```
+
+
+## Plugin package
+This repository is packaged as the `gc-product-agent` portable Agent Plugin. Skills are discovered from `skills/`. MCP configuration can be added later through `mcp.json`.

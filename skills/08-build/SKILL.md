@@ -1,3 +1,8 @@
+---
+name: 08-build
+description: Plan and execute implementation using the confirmed project stack, architecture, adapters and engineering constraints.
+---
+
 # Build Skill
 
 ## Objetivo

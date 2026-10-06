@@ -1,3 +1,8 @@
+---
+name: 10-change-management
+description: Register changes, calculate impact, preserve checkpoints, invalidate affected artifacts and resume from the earliest required stage.
+---
+
 # Change Management Skill
 
 ## Objetivo

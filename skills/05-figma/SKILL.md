@@ -1,3 +1,8 @@
+---
+name: 05-figma
+description: Inspect, structure, synchronize and QA Figma designs using available Figma MCP capabilities.
+---
+
 # Figma Skill
 
 ## Objetivo

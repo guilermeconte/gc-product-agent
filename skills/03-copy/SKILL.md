@@ -1,3 +1,8 @@
+---
+name: 03-copy
+description: Create, organize, revise and track product copy, microcopy, CTAs and content states without blocking design.
+---
+
 # Copy Skill
 
 ## Objetivo

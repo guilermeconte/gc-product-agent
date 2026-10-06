@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gc-product-agent",
+  "version": "0.1.0",
+  "description": "Reusable AI workflow for digital product discovery, research, copy, design systems, Figma, motion, translation, build, QA, change management and delivery.",
+  "author": {
+    "name": "GC Product Agent"
+  },
+  "repository": "https://github.com/",
+  "license": "MIT",
+  "keywords": [
+    "ai-agent",
+    "product-development",
+    "design-system",
+    "figma",
+    "research",
+    "qa",
+    "workflow"
+  ]
+}

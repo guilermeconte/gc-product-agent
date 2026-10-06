@@ -1,3 +1,8 @@
+---
+name: 01-discovery
+description: Turn a product briefing into structured requirements, facts, decisions, constraints and project scope.
+---
+
 # Discovery Skill
 
 ## Objetivo

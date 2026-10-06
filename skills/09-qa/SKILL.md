@@ -1,3 +1,8 @@
+---
+name: 09-qa
+description: Run visual, functional, accessibility, security and performance QA and route findings back to affected workflow stages.
+---
+
 # QA Skill
 
 ## Objetivo

@@ -1,3 +1,8 @@
+---
+name: 02-research
+description: Research references, competitors, technologies, UX patterns and implementation patterns when research is requested or useful.
+---
+
 # Research Skill
 
 ## Objetivo

@@ -1,3 +1,8 @@
+---
+name: 07-translation
+description: Translate design contracts and product decisions into framework-agnostic implementation contracts and code mappings.
+---
+
 # Translation Skill
 
 ## Objetivo

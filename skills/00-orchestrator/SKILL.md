@@ -1,3 +1,8 @@
+---
+name: 00-orchestrator
+description: Coordinate the complete digital product workflow, project state, dependencies and change routing.
+---
+
 # Orchestrator Skill
 
 ## Responsabilidade
