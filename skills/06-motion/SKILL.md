@@ -1,68 +1,13 @@
 ---
-name: 06-motion
-description: Define interaction and motion behavior, reverse-engineer references, and translate intent into implementation-ready motion specifications.
+name: gc-motion
+description: Especifica motion, incluindo estados, timelines, scroll, mouse, stagger, duração, easing e responsividade.
 ---
 
-# Motion Skill
+# MOTION AGENT
 
-## Objetivo
+Extraia e especifique motion.
 
-Traduzir intenção de interação em especificação visual e implementação técnica.
+Para estados simples, prefira CSS.
+Para timelines, scroll, mouse, stagger e sequências complexas, produza uma especificação compatível com o runtime escolhido.
 
-## Classificação
-
-### CSS-first
-- hover
-- focus
-- active
-- color transition
-- transform simples
-- opacity simples
-
-### JS/motion engine
-- entrance sequencing
-- scroll-linked animation
-- mouse interaction
-- complex timeline
-- stagger
-- smooth scrolling
-- cross-element synchronization
-
-## Motion Contract
-
-```yaml
-motion:
-  id:
-  figma_name:
-  code_name:
-  data_attribute:
-  intent:
-  trigger:
-  properties:
-  duration:
-  easing:
-  scroll:
-  mouse:
-  reduced_motion:
-  implementation:
-  dependencies:
-```
-
-## Regra
-
-O designer descreve comportamento. O agente pesquisa/decide a implementação. O designer não precisa conhecer o nome da API.
-
-## Exemplo
-
-```text
-"imagem cresce e revela conforme o scroll"
-→ scroll-linked image reveal
-→ implementação candidata
-→ Figma prototype
-→ data-motion="image-reveal"
-→ implementação no framework
-```
-
-## Saída
-
-`.project/design/motion.json`
+Documente duração, easing, delay, trigger e comportamento responsivo.

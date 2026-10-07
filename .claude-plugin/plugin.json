@@ -1,0 +1,23 @@
+{
+  "name": "gc-creator",
+  "version": "0.4.0",
+  "displayName": "GC Creator",
+  "description": "GC Creator: The Architect orchestrates the full digital-product workflow and activates specialized skills from idea to delivery.",
+  "author": {
+    "name": "GC"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "agents",
+    "digital-products",
+    "design",
+    "figma",
+    "mcp",
+    "development",
+    "qa",
+    "workflow",
+    "orchestration",
+    "architecture"
+  ]
+}

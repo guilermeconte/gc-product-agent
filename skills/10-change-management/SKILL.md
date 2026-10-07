@@ -1,64 +1,12 @@
 ---
-name: 10-change-management
-description: Register changes, calculate impact, preserve checkpoints, invalidate affected artifacts and resume from the earliest required stage.
+name: gc-change-management
+description: Gerencia mudanças por Change Requests, impacto no DAG, invalidação de dependências e checkpoints.
 ---
 
-# Change Management Skill
+# CHANGE MANAGEMENT
 
-## Objetivo
+Converta alterações em Change Requests.
 
-Permitir alterações durante qualquer fase sem perder contexto.
+Calcule impacto no DAG e encontre o primeiro artefato afetado.
 
-## Processo
-
-```text
-User change
-→ classify
-→ identify affected artifacts
-→ calculate impact
-→ create Change Request
-→ approve/apply
-→ invalidate dependents
-→ continue from earliest affected node
-```
-
-## Categorias
-
-- content
-- design
-- component
-- motion
-- architecture
-- backend
-- infrastructure
-- security
-
-## Exemplo
-
-Alterar CTA:
-- Copy: affected
-- Figma: affected
-- Build: affected
-- QA: affected
-- Discovery: unaffected
-
-Alterar arquitetura:
-- Translation: affected
-- Build: affected
-- QA: affected
-- Design: normalmente preservado
-
-## Versionamento
-
-Nunca apagar silenciosamente uma versão aprovada. Registrar:
-
-```yaml
-change:
-  id:
-  reason:
-  requested_by:
-  affected_steps: []
-  invalidated_artifacts: []
-  approved:
-  status:
-```
+Invalide apenas dependências posteriores e preserve checkpoints aprovados.

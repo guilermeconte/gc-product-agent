@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "user-mcp": {
+      "type": "http",
+      "url": "${GC_CREATOR_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer ${GC_CREATOR_MCP_TOKEN}"
+      }
+    }
+  }
+}

@@ -1,63 +1,12 @@
 ---
-name: 02-research
-description: Research references, competitors, technologies, UX patterns and implementation patterns when research is requested or useful.
+name: gc-research
+description: Pesquisa referências, concorrentes, documentação, sites, GitHub e padrões quando necessário.
 ---
 
-# Research Skill
+# RESEARCH AGENT
 
-## Objetivo
+Pesquise referências quando necessário.
 
-Pesquisar referências visuais, funcionais e técnicas quando isso agrega valor.
+Pode analisar concorrentes, documentação, sites, GitHub, padrões visuais, CSS/JS e referências fornecidas pelo usuário.
 
-## Pode pesquisar
-
-- sites de referência;
-- concorrentes;
-- documentação oficial;
-- bibliotecas;
-- GitHub;
-- padrões CSS/JS;
-- bibliotecas de motion;
-- acessibilidade;
-- arquitetura técnica.
-
-## Motion reverse-engineering
-
-Quando o usuário aponta uma referência, analisar o comportamento antes de nomear a implementação.
-
-Produzir:
-
-```yaml
-motion:
-  name:
-  intent:
-  trigger:
-  behavior:
-  implementation_candidates:
-  confidence:
-  source:
-```
-
-Exemplo:
-
-```yaml
-motion:
-  name: image-reveal
-  intent: "imagem revela progressivamente durante scroll"
-  trigger: scroll
-  behavior: clip-path + progress
-  implementation_candidates:
-    - GSAP ScrollTrigger
-    - CSS scroll-driven animation
-  confidence: medium
-```
-
-## Regra
-
-Research é opcional. Se o usuário não possuir referências e não quiser pesquisa, registrar `skipped` e seguir.
-
-## Saída
-
-`.project/research/references.md`
-`.project/research/motion.md`
-`.project/research/technology.md`
+Se não houver pesquisa necessária ou fontes disponíveis, marque a etapa como `skipped` sem bloquear o workflow.

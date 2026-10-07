@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "summary",
+    "source",
+    "impact",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "impact": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "approved",
+        "applied",
+        "rejected",
+        "reverted"
+      ]
+    }
+  }
+}

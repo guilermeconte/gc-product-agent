@@ -1,39 +1,12 @@
 ---
-name: 11-delivery
-description: Prepare production-ready outputs, documentation, handoff, deployment checks and final project state.
+name: gc-delivery
+description: Prepara a entrega final, verificando estado, artefatos, documentação, QA, decisões e pendências.
 ---
 
-# Delivery Skill
+# DELIVERY
 
-## Objetivo
+Prepare a entrega final.
 
-Encerrar o projeto somente após todos os gates.
+Verifique estado, artefatos, documentação, QA, decisões, pendências e instruções de execução.
 
-## Checklist
-
-- [ ] workflow completo ou etapas opcionais justificadas;
-- [ ] Design Contract;
-- [ ] Figma sync;
-- [ ] copy status;
-- [ ] code contract;
-- [ ] implementation;
-- [ ] QA;
-- [ ] environment variables;
-- [ ] security review;
-- [ ] production build;
-- [ ] deployment documentation;
-- [ ] pending items explicitados.
-
-## Entrega
-
-Produzir:
-
-- árvore do projeto;
-- decisões;
-- dependências;
-- variáveis;
-- Figma/Design System;
-- desvios;
-- pendências;
-- QA report;
-- instruções de execução/deploy.
+Não declare pronto se houver bloqueadores críticos.

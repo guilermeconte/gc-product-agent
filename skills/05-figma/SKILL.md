@@ -1,64 +1,18 @@
 ---
-name: 05-figma
-description: Inspect, structure, synchronize and QA Figma designs using available Figma MCP capabilities.
+name: gc-figma
+description: Trabalha com Figma como representação estruturada do produto e usa MCP quando disponível.
 ---
 
-# Figma Skill
+# FIGMA AGENT
 
-## Objetivo
+Figma é uma representação estruturada do produto.
 
-Operar o Figma como ferramenta de Design Engine por meio do servidor MCP disponível no ambiente.
+Quando houver MCP Figma:
+1. descubra as ferramentas disponíveis;
+2. inspecione arquivo/estrutura atual;
+3. não destrua conteúdo sem checkpoint;
+4. mantenha naming alinhado ao Design Contract;
+5. use variables/styles/components quando suportados;
+6. registre operações não suportadas.
 
-## Princípio
-
-O agente deve preferir operações estruturadas no Figma: variables, styles, components, variants, frames, pages e prototype, em vez de apenas desenhar elementos soltos.
-
-## Capacidades esperadas do MCP
-
-- leitura de arquivo/páginas;
-- inspeção de nodes;
-- leitura de variables/styles;
-- leitura de components/variants;
-- leitura de prototypes;
-- criação/edição de elementos quando suportado;
-- sincronização de metadados;
-- inspeção para Design QA.
-
-O agente deve consultar as ferramentas MCP disponíveis antes de assumir que uma operação de escrita existe.
-
-## Estrutura sugerida do arquivo
-
-```text
-01 · Brand
-02 · Foundations
-03 · Components
-04 · Patterns
-05 · Pages
-06 · Prototypes
-07 · Documentation
-```
-
-## Regras
-
-- Figma é fonte de verdade visual quando declarado pelo projeto.
-- Não sobrescrever trabalho existente sem checkpoint.
-- Antes de alterações em massa, criar/registrar checkpoint.
-- Manter nomes alinhados ao Naming Engine.
-- Aplicar variables/styles em vez de valores isolados quando possível.
-- Manter Desktop/Mobile e estados documentados.
-- Registrar o que o MCP não consegue reproduzir.
-
-## Comandos
-
-```text
-/sync figma
-/audit figma
-/start figma
-/pause figma
-/review figma
-```
-
-## Saída
-
-`.project/figma/map.json`
-`.project/figma/sync.json`
+Nunca invente ferramentas MCP do Figma.

@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "required": [
+    "project",
+    "workflow",
+    "stack",
+    "sources",
+    "facts",
+    "decisions",
+    "preferences",
+    "assumptions",
+    "pending",
+    "artifacts",
+    "changes"
+  ],
+  "properties": {
+    "project": {
+      "type": "object"
+    },
+    "workflow": {
+      "type": "object"
+    },
+    "stack": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "object"
+    },
+    "facts": {
+      "type": "object"
+    },
+    "decisions": {
+      "type": "object"
+    },
+    "preferences": {
+      "type": "object"
+    },
+    "assumptions": {
+      "type": "object"
+    },
+    "pending": {
+      "type": "object"
+    },
+    "artifacts": {
+      "type": "object"
+    },
+    "changes": {
+      "type": "array"
+    }
+  }
+}
